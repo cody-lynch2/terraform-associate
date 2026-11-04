@@ -7,9 +7,9 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 | Folder | What it covers |
 | --- | --- |
 | `learn-terraform-get-started-aws` | Core workflow: create, change and destroy an EC2 instance |
-| `section1-providers` | Multiple providers, provider aliases, version constraints and the dependency lock file |
-| `section3-variables` | Variable types (list, set, map, object), variable precedence, `terraform console` and sensitive outputs |
-| `section4-loops` | `count` versus `for_each` (index versus key addresses), `for` expressions, splats versus `values()`, and `dynamic` blocks |
+| `providers-and-versioning` | Multiple providers, provider aliases, version constraints and the dependency lock file |
+| `variables-and-types` | Variable types (list, set, map, object), variable precedence, `terraform console` and sensitive outputs |
+| `loops-and-dynamic-blocks` | `count` versus `for_each` (index versus key addresses), `for` expressions, splats versus `values()`, and `dynamic` blocks |
 
 ## Official tutorials completed
 
