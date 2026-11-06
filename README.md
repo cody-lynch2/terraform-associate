@@ -10,6 +10,7 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 | `providers-and-versioning` | Multiple providers, provider aliases, version constraints and the dependency lock file |
 | `variables-and-types` | Variable types (list, set, map, object), variable precedence, `terraform console` and sensitive outputs |
 | `loops-and-dynamic-blocks` | `count` versus `for_each` (index versus key addresses), `for` expressions, splats versus `values()`, and `dynamic` blocks |
+| `modules-and-sources` | Writing and calling a local module, passing an aliased provider with `providers`, module scope rules, and Registry versus Git sources (`version` versus `?ref=`) |
 
 ## Official tutorials completed
 
@@ -27,3 +28,9 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 - [Create dynamic expressions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/expressions)
 - [Create resource dependencies](https://developer.hashicorp.com/terraform/tutorials/configuration-language/dependencies)
 - [Manage resource lifecycle](https://developer.hashicorp.com/terraform/tutorials/state/resource-lifecycle)
+- [Validate modules with custom conditions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/custom-conditions)
+- [Use checks to validate infrastructure](https://developer.hashicorp.com/terraform/tutorials/configuration-language/checks)
+- [Protect sensitive input variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables)
+- [Inject secrets into Terraform using the Vault provider](https://developer.hashicorp.com/terraform/tutorials/secrets/secrets-vault)
+- [Use registry modules in configuration](https://developer.hashicorp.com/terraform/tutorials/modules/module-use)
+- [Build and use a local module](https://developer.hashicorp.com/terraform/tutorials/modules/module-create)
