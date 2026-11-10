@@ -11,6 +11,7 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 | `variables-and-types` | Variable types (list, set, map, object), variable precedence, `terraform console` and sensitive outputs |
 | `loops-and-dynamic-blocks` | `count` versus `for_each` (index versus key addresses), `for` expressions, splats versus `values()`, and `dynamic` blocks |
 | `modules-and-sources` | Writing and calling a local module, passing an aliased provider with `providers`, module scope rules, and Registry versus Git sources (`version` versus `?ref=`) |
+| `remote-state-and-locking` | Migrating local state to an S3 backend, partial backend configuration, S3 native state locking, `-lock-timeout`, `removed` blocks and the `allowed_account_ids` guard |
 
 ## Official tutorials completed
 
@@ -34,3 +35,7 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 - [Inject secrets into Terraform using the Vault provider](https://developer.hashicorp.com/terraform/tutorials/secrets/secrets-vault)
 - [Use registry modules in configuration](https://developer.hashicorp.com/terraform/tutorials/modules/module-use)
 - [Build and use a local module](https://developer.hashicorp.com/terraform/tutorials/modules/module-create)
+- [Manage resources in Terraform state](https://developer.hashicorp.com/terraform/tutorials/state/state-cli)
+- [Use refresh-only mode to sync Terraform state](https://developer.hashicorp.com/terraform/tutorials/state/refresh)
+- [Manage resource drift](https://developer.hashicorp.com/terraform/tutorials/state/resource-drift)
+- [Use configuration to move resources](https://developer.hashicorp.com/terraform/tutorials/state/move-config)
