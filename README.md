@@ -12,6 +12,7 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 | `loops-and-dynamic-blocks` | `count` versus `for_each` (index versus key addresses), `for` expressions, splats versus `values()`, and `dynamic` blocks |
 | `modules-and-sources` | Writing and calling a local module, passing an aliased provider with `providers`, module scope rules, and Registry versus Git sources (`version` versus `?ref=`) |
 | `remote-state-and-locking` | Migrating local state to an S3 backend, partial backend configuration, S3 native state locking, `-lock-timeout`, `removed` blocks and the `allowed_account_ids` guard |
+| `import-existing` | Importing existing AWS resources with `import` blocks and generated config versus the `terraform import` command, inspecting state, and `TF_LOG` logging |
 
 ## Official tutorials completed
 
@@ -39,3 +40,4 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 - [Use refresh-only mode to sync Terraform state](https://developer.hashicorp.com/terraform/tutorials/state/refresh)
 - [Manage resource drift](https://developer.hashicorp.com/terraform/tutorials/state/resource-drift)
 - [Use configuration to move resources](https://developer.hashicorp.com/terraform/tutorials/state/move-config)
+- [Troubleshoot Terraform](https://developer.hashicorp.com/terraform/tutorials/configuration-language/troubleshooting-workflow)
