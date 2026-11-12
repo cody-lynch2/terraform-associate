@@ -41,3 +41,8 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 - [Manage resource drift](https://developer.hashicorp.com/terraform/tutorials/state/resource-drift)
 - [Use configuration to move resources](https://developer.hashicorp.com/terraform/tutorials/state/move-config)
 - [Troubleshoot Terraform](https://developer.hashicorp.com/terraform/tutorials/configuration-language/troubleshooting-workflow)
+- [Collaborate using HCP Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-hcp-terraform)
+- [HCP Terraform Get Started collection](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started)
+- [Multiple variable sets](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-multiple-variable-sets)
+- [Organize workspaces with projects](https://developer.hashicorp.com/terraform/tutorials/cloud/projects)
+- [Connect workspaces with run triggers](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-run-triggers)
