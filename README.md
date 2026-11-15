@@ -1,6 +1,8 @@
 # Terraform Associate (004) Study Labs
 
-Hands-on labs from studying for the HashiCorp Terraform Associate (004) certification, built on AWS (us-east-2).
+**Status: Passed on November 14, 2026.** [HashiCorp Certified: Terraform Associate (004)](https://www.credly.com/badges/be20626d-60df-4a61-a964-0ff5da12b20f/public_url), valid through November 2028.
+
+Hands-on labs I built while preparing for the certification, on AWS (us-east-2). Each folder is a small, self-contained configuration that I wrote to practice one area of the exam.
 
 ## Labs
 
@@ -46,3 +48,9 @@ Hands-on labs from studying for the HashiCorp Terraform Associate (004) certific
 - [Multiple variable sets](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-multiple-variable-sets)
 - [Organize workspaces with projects](https://developer.hashicorp.com/terraform/tutorials/cloud/projects)
 - [Connect workspaces with run triggers](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-run-triggers)
+
+## What I took away
+
+- **State is yours to manage.** Coming from CloudFormation, the biggest shift was owning state: where it lives, who can write to it, and how to repair it with `moved`, `removed` and `import` blocks.
+- **Addresses matter more than names.** Terraform tracks resources by address, which is why `for_each` is safer than `count` for anything that changes over time.
+- **Guardrails come in layers.** Variable validation, preconditions, provider settings such as `allowed_account_ids`, and policy in HCP Terraform each catch a different kind of mistake.
